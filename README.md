@@ -1,4 +1,5 @@
 Syllabea - Final Project - Software Engineering
+--------
 Netanel Shen - natidd
 Gadi Yohanan - gadi1009
 Mhdi Janam
@@ -47,5 +48,11 @@ Future Plans
 ------------
 
 - Add support for more user roles.
+
+
 - Allow exporting syllabi to PDF.
 - Improve the design and user experience.
+
+ScreenShot
+-----
+![photo_2025-07-25_01-09-02](https://github.com/user-attachments/assets/b721cc7c-87b7-453a-ac37-d6738f24f9b9)

@@ -1,58 +1,58 @@
-Syllabea - Final Project - Software Engineering
---------
-Netanel Shen - natidd
-Gadi Yohanan - gadi1009
-Mhdi Janam
-Bakar abu salim
---------
+# Syllabea - Final Project - Software Engineering
+
+## Authors
+
+* **Netanel Shen** - [natidd]
+* **Gadi Yohanan** - [gadi1009]
+* **Mhdi Janam** - [Mhdi287]
+* **Bakar abu salim** - [Bakar]
+
+---
 
 Syllabea is a web-based system for managing course syllabi. It is built using the Go programming language with HTML templates and HTMX for dynamic web features. The system helps lecturers and managers create, edit, and view syllabi.
 
-Features
---------
+## Features
 
-- Lecturers can create, edit, and save their syllabi.
-- Managers can see and manage all syllabi in the system.
-- The system keeps track of progress through a sidebar that shows how complete the syllabus is.
-- Uses HTMX for updating parts of the page without reloading the whole page.
-- Uses Go templates to create simple and fast web pages.
+-   Lecturers can create, edit, and save their syllabi.
+-   Managers can see and manage all syllabi in the system.
+-   The system keeps track of progress through a sidebar that shows how complete the syllabus is.
+-   Uses HTMX for updating parts of the page without reloading the whole page.
+-   Uses Go templates to create simple and fast web pages.
 
-Technologies Used
------------------
+---
 
-- Go (backend)
-- HTMX (for dynamic interactions)
-- HTML and CSS (for the frontend)
-- MySQL (for the database)
+## Technologies Used
 
-Roles
------
+-   Go (backend)
+-   HTMX (for dynamic interactions)
+-   HTML and CSS (for the frontend)
+-   MySQL (for the database)
 
-- Lecturer: Can only see and edit their own syllabi.
-- Manager: Can see and manage all syllabi.
+---
 
-Run Syllabea locally with Go (no Docker)
-----------
+## Roles
 
-# 1. Go to the project folder
-cd ~/xxxxxxx/Syllabea-master
+-   **Lecturer**: Can only see and edit their own syllabi.
+-   **Manager**: Can see and manage all syllabi.
 
-# 2. Initialize Go modules (if not already)
-go mod tidy
+---
 
-# 3. Run the app
-go run main.go
-Listening on http://localhost:8080
+## How to Run
 
-Future Plans
-------------
+1.  Install Go on your system.
+2.  Clone this repository.
+3.  Set up the MySQL database using the provided SQL script (if available).
+4.  Configure the database connection in the code (usually in a config file).
+5.  Run the Go server:
+    ```bash
+    go run main.go
+    ```
+6.  Open your browser and go to `http://localhost:8080`
 
-- Add support for more user roles.
+---
 
+## Future Plans
 
-- Allow exporting syllabi to PDF.
-- Improve the design and user experience.
-
-ScreenShot
------
-![photo_2025-07-25_01-09-02](https://github.com/user-attachments/assets/b721cc7c-87b7-453a-ac37-d6738f24f9b9)
+-   Add support for more user roles.
+-   Allow exporting syllabi to PDF.
+-   Improve the design and user experience.
